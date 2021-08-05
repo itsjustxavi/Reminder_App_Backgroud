@@ -24,7 +24,7 @@ app.get('/random',(req, res) => {
   }
 })
 
-
+console.log('test')
  app.get('/',(req, res) => {
   const count = 1;
   if(!count) {
